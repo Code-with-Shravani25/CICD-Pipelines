@@ -175,16 +175,17 @@ WAR/EAR Files: Specify the path, e.g., target/your-app.war (webapp/target/*.war)
 Container: Tomcat 8/9/10 remote
 
 Add credentials (username/password that we use for tomcat manager app)
-
+```bash
 Tomcat URL: http://<Tomcat-EC2-Public-IP>:8080
-
+```
 Tomcat WAR Deployment Info
 
 WAR files will be deployed to: /opt/tomcat/webapps/
 
 ## Access Application
 
+```bash
 http://<Tomcat-EC2-Public-IP>:8080/<your-app-name>/
-
+```
 
 
