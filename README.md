@@ -24,7 +24,10 @@ mv apache-tomcat-10.1.41 tomcat
 cd tomcat/bin
 ./startup.sh
 ```
-Access Tomcat: http://<Tomcat-EC2-Public-IP>:8080
+Access Tomcat:
+```bash
+http://<Tomcat-EC2-Public-IP>:8080
+```
 
 Steps to Add a Role in tomcat-users.xml
 ```bash
